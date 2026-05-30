@@ -3,176 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get 30 days FREE Audible trial. Turn your commute into a book club.">
-    <title>affiliatelink.fun | Free Audible Trial + Audiobook Tips</title>
+    <title>affiliatelink.fun • Red Carpet Access to Audible</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    
     <style>
         .hero-bg { 
-            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), 
-                        url('https://picsum.photos/id/1015/2000/1200') center/cover;
+            background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), 
+                        url('https://images.pexels.com/photos/7594122/pexels-photo-7594122.jpeg') center/cover !important;
         }
 
-        /* Large Flashlight Effect */
+        .velvet { color: #9f1239; }
+        .gold { color: #facc15; }
+
         .flashlight-overlay {
-            position: fixed;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            background: radial-gradient(circle 540px at var(--x) var(--y), 
-                        rgba(255,255,255,0.18) 0%, 
-                        rgba(0,0,0,0.88) 55%);
-            pointer-events: none;
-            z-index: 9999;
-            mix-blend-mode: multiply;
-            opacity: 0.92;
-            transition: all 0.12s ease;
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle 620px at var(--x) var(--y), rgba(250,204,21,0.18) 0%, rgba(0,0,0,0.92) 55%);
+            pointer-events: none; z-index: 9999; mix-blend-mode: multiply; opacity: 0.9;
         }
-
-        .content-wrapper { position: relative; z-index: 1; }
-
-        /* Mobile: Fixed centered spotlight */
         @media (max-width: 768px) {
-            .flashlight-overlay {
-                background: radial-gradient(circle 420px at 50% 35%, 
-                            rgba(255,255,255,0.20) 0%, 
-                            rgba(0,0,0,0.90) 60%);
+            .flashlight-overlay { 
+                background: radial-gradient(circle 480px at 50% 32%, rgba(250,204,21,0.20) 0%, rgba(0,0,0,0.93) 65%); 
             }
         }
     </style>
 </head>
-<body class="bg-gray-950 text-white overflow-x-hidden">
+<body class="bg-zinc-950 text-white">
 
-    <!-- Flashlight -->
+    <!-- Spotlight - Fixed center on mobile, follows mouse on desktop -->
     <div id="flashlight" class="flashlight-overlay"></div>
 
-    <div class="content-wrapper">
+    <div class="relative z-10">
 
         <!-- Hero -->
-        <section class="hero-bg py-20 md:py-32 text-center min-h-screen flex items-center">
+        <section class="hero-bg py-28 text-center min-h-screen flex items-center">
             <div class="max-w-4xl mx-auto px-6">
-                <h1 class="text-5xl md:text-6xl font-bold mb-6">Turn Your Commute Into a <span class="text-amber-400">Book Club</span></h1>
-                <p class="text-xl md:text-2xl mb-8">Get **30 days FREE** on Audible — 200,000+ titles waiting for you.</p>
+                <p class="text-amber-400 uppercase tracking-[4px] text-sm font-bold mb-3">🎟️ Velvet Rope Access • Hollywood Premiere</p>
+                <h1 class="text-6xl md:text-7xl font-bold leading-none mb-6">The Spotlight is On <span class="gold">YOU</span></h1>
+                <p class="text-2xl text-gray-200">Get <strong>30 days completely free with Audible</strong></p>
                 
-                <a href="YOURAFFILIATELINKHERE.COM" 
-                   class="inline-block bg-amber-500 hover:bg-amber-600 text-white text-xl font-semibold px-10 py-5 rounded-2xl transition shadow-xl">
-                    Start Your Free 30-Day Trial →
+                <a href="https://amzn.to/435EoZ1" 
+                   class="mt-10 inline-block bg-[#9f1239] hover:bg-red-700 text-white text-xl font-bold px-12 py-6 rounded-2xl shadow-2xl">
+                    🎥 Claim Your 30 Days Free with Audible →
                 </a>
-                
-                <p class="text-sm mt-6 opacity-75">Cancel anytime • No credit card needed to start</p>
+                <p class="mt-6 text-sm opacity-75">Cancel anytime • No card needed</p>
             </div>
         </section>
 
         <!-- Trust Bar -->
-        <div class="bg-black/70 py-4">
-            <div class="max-w-6xl mx-auto px-6 flex flex-wrap justify-center gap-6 md:gap-10 text-sm">
-                <div>⭐⭐⭐⭐⭐ 4.8/5</div>
-                <div>📚 200,000+ Titles</div>
-                <div>🎧 Celebrity Narrators</div>
-                <div>💰 Cancel Anytime</div>
-            </div>
+        <div class="bg-black py-4 border-y border-red-900 text-center text-sm">
+            ⭐⭐⭐⭐⭐ Trusted by millions • Part of Amazon
         </div>
 
-        <!-- Did You Know -->
-        <section class="py-20 bg-gray-950">
-            <div class="max-w-6xl mx-auto px-6">
-                <h2 class="text-4xl font-bold text-center mb-12 text-amber-400">Did You Know?</h2>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="bg-gray-900 p-8 rounded-3xl border border-white/10">
-                        <h3 class="text-2xl font-semibold mb-3">Listening = Reading for your brain</h3>
-                        <p class="text-gray-300">Brain scans show almost identical activity whether you read text or listen to audiobooks.</p>
-                    </div>
-                    <div class="bg-gray-900 p-8 rounded-3xl border border-white/10">
-                        <h3 class="text-2xl font-semibold mb-3">Finish books 2–3× faster</h3>
-                        <p class="text-gray-300">Most people listen at 1.5x–2.0x speed comfortably.</p>
-                    </div>
+        <!-- Bullet Benefits -->
+        <section class="py-16 bg-zinc-900">
+            <div class="max-w-5xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-10 velvet">Why Everyone’s Walking the Red Carpet to Audible</h2>
+                <div class="grid md:grid-cols-2 gap-8 text-lg">
+                    <ul class="space-y-6">
+                        <li class="flex gap-3"><span class="text-3xl">🎧</span> <span>200,000+ bestsellers, thrillers, self-help & celebrity narrators</span></li>
+                        <li class="flex gap-3"><span class="text-3xl">🚀</span> <span>Listen at 1.5x–2.5x speed and finish books faster</span></li>
+                        <li class="flex gap-3"><span class="text-3xl">⏰</span> <span>Turn driving, gym, and chores into premium listening time</span></li>
+                    </ul>
+                    <ul class="space-y-6">
+                        <li class="flex gap-3"><span class="text-3xl">🌟</span> <span>Your brain treats listening exactly like reading</span></li>
+                        <li class="flex gap-3"><span class="text-3xl">🏆</span> <span>A-list stars and authors narrate their own books</span></li>
+                        <li class="flex gap-3"><span class="text-3xl">🔓</span> <span>Cancel anytime — keep the books you love forever</span></li>
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Become an Affiliate -->
-        <section class="py-16 bg-gray-900 border-t border-b border-amber-400/30">
-            <div class="max-w-3xl mx-auto px-6 text-center">
-                <h2 class="text-3xl font-bold mb-4">Want to Become an Affiliate Yourself?</h2>
-                <p class="text-gray-300 mb-8">I can send you my best affiliate links and show you how to build your own tree.</p>
-                <a href="mailto:info@affiliatelink.fun" 
-                   class="inline-flex items-center gap-3 bg-white text-black hover:bg-gray-200 px-8 py-4 rounded-2xl font-semibold text-lg">
-                    <i class="fa-solid fa-envelope"></i>
-                    Email me at info@affiliatelink.fun
-                </a>
-            </div>
-        </section>
-
         <!-- Final CTA -->
-        <section class="py-20 bg-gradient-to-br from-amber-500 to-orange-600 text-center">
+        <section class="py-20 bg-gradient-to-br from-red-700 via-rose-600 to-amber-400 text-center text-black">
             <div class="max-w-3xl mx-auto px-6">
-                <h2 class="text-4xl font-bold mb-6">Ready to Start Listening?</h2>
-                <a href="YOURAFFILIATELINKHERE.COM" 
-                   class="inline-block bg-white text-black text-2xl font-bold px-12 py-6 rounded-2xl hover:scale-105 transition">
-                    Claim Your FREE 30 Days →
+                <h2 class="text-4xl font-bold mb-4">Ready for your premiere?</h2>
+                <a href="https://amzn.to/435EoZ1" class="inline-block bg-black text-white text-2xl font-bold px-14 py-7 rounded-2xl hover:scale-105 transition">
+                    Get 30 Days Free with Audible →
                 </a>
+                <p class="mt-5 font-semibold">Your personal red carpet pass awaits</p>
             </div>
         </section>
 
     </div>
 
     <!-- Footer -->
-    <footer class="bg-black py-12 text-center text-sm text-gray-400">
-        <p class="mb-3">
-            This site participates in the Amazon Associates Program. 
-            As an Amazon Associate I earn from qualifying purchases.
-        </p>
-        <p>
-            <a href="mailto:info@affiliatelink.fun" class="hover:text-amber-400">info@affiliatelink.fun</a> 
-            • © affiliatelink.fun
-        </p>
+    <footer class="bg-black py-8 text-center text-xs text-gray-500">
+        This site participates in the Amazon Associates Program. As an Amazon Associate I earn from qualifying purchases.<br>
+        © affiliatelink.fun • <a href="mailto:info@affiliatelink.fun" class="hover:text-white">info@affiliatelink.fun</a>
     </footer>
 
-    <!-- Fanfare Sound -->
-    <audio id="fanfare" preload="auto">
-        <source src="https://assets.mixkit.co/sfx/preview/2965/2965.wav" type="audio/wav">
-    </audio>
-
     <script>
-        // Flashlight
-        const flashlight = document.getElementById('flashlight');
-
-        function updateFlashlight(e) {
-            const x = e.clientX + 'px';
-            const y = e.clientY + 'px';
-            flashlight.style.setProperty('--x', x);
-            flashlight.style.setProperty('--y', y);
-        }
-
-        document.addEventListener('mousemove', updateFlashlight);
-
-        // Mobile: Center spotlight + no mouse needed
-        if ('ontouchstart' in window || navigator.maxTouchPoints > 2) {
-            flashlight.style.background = `radial-gradient(circle 420px at 50% 35%, 
-                                        rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.90) 60%)`;
-        }
-
-        // Play fanfare once on first visit
-        const fanfare = document.getElementById('fanfare');
-        let hasPlayed = localStorage.getItem('fanfarePlayed');
-
-        if (!hasPlayed) {
-            setTimeout(() => {
-                fanfare.volume = 0.4;
-                fanfare.play().catch(() => {}); // ignore autoplay block
-                localStorage.setItem('fanfarePlayed', 'true');
-            }, 800);
-        }
-
-        // Click to enlarge spotlight
-        document.addEventListener('mousedown', () => {
-            flashlight.style.background = `radial-gradient(circle 720px at var(--x) var(--y), 
-                                        rgba(255,255,255,0.22) 0%, rgba(0,0,0,0.85) 60%)`;
+        const fl = document.getElementById('flashlight');
+        document.addEventListener('mousemove', e => {
+            fl.style.setProperty('--x', e.clientX + 'px');
+            fl.style.setProperty('--y', e.clientY + 'px');
         });
-        document.addEventListener('mouseup', () => {
-            flashlight.style.background = `radial-gradient(circle 540px at var(--x) var(--y), 
-                                        rgba(255,255,255,0.18) 0%, rgba(0,0,0,0.88) 55%)`;
-        });
+        if ('ontouchstart' in window) {
+            fl.style.background = `radial-gradient(circle 480px at 50% 32%, rgba(250,204,21,0.20) 0%, rgba(0,0,0,0.93) 65%)`;
+        }
     </script>
 </body>
 </html>
